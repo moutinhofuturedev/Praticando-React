@@ -1,0 +1,67 @@
+.main_page {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+
+    aside {
+        flex: 7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 60px;
+
+        h1 {
+            color: #34B3F1;
+        }
+
+        p {
+            color: #888282;
+            font-size: 14px;
+        }
+
+        img {
+            min-width: 200px;
+            margin: 0 0 50px 35px;
+        } 
+    }
+
+    main {
+        flex: 8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        background: #0F1418;
+        width: 100vh;
+
+        div {
+            margin: 4px 0;
+        }
+
+        button {
+            border: 0;
+            background: #34B3F1;
+            color: #fff;
+
+            width: 90px;
+            height: 40px;
+            border-radius: 4px;
+
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        > p {
+            color: #888282;
+            font-size: 14px;
+            margin-top: 8px;
+
+            a {
+                color: #34B3F1;
+                text-decoration: none; //tirar linha sublinhada da tag de hyper link
+            }
+        }
+    }
+}
