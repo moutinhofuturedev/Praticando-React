@@ -1,15 +1,36 @@
-form {
- 
-    table {
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
 
-        margin-top: 28px;
-        td, th {
-            border: 1px solid #34B3F1;
+    img {
+        height: 64px;
+        width: 64px;
+        border-radius: 9999px;
+        border: 2px solid #34B3F1;
+    }
+
+    strong {
+        font-size: 14px;
+        margin-top: 0.8em;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 4px 0 24px 0;
+        line-height: 0.5em;
+    }
+
+    ol {
+        li {
             color: #888282;
-            font-weight: 400;
-    
-            padding: 8px 15px;
-            border-radius: 4px;
+            list-style: none;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 12px;
         }
     }
 }
