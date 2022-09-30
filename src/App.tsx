@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function App() { // um componente é uma função que retorna um html
   const [ counter, setCounter ] = useState<string[]>([]) // o valor inicial do estado é um array 
-  const [ value, setValue ] =useState('')
+  const [ value, setValue ] = useState('')
 
   function createReactUI(event: FormEvent) {
     event.preventDefault()
